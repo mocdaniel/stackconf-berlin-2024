@@ -29,8 +29,8 @@
       "css": "unocss",
       "favicon": "/favicon.ico",
       "fonts": {
-        "sans": "Nunito Sans",
-        "mono": "Fira Code"
+        "sans": "Roboto",
+        "mono": "Roboto Mono"
       },
       "hightlighter": "shiki"
     }
