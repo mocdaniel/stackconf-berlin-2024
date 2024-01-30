@@ -16,8 +16,7 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@slidev/types": "^0.40.14",
-    "theme-vitesse": "^0.6.4"
+    "@slidev/types": "^0.40.14"
   },
   "devDependencies": {
     "@slidev/cli": "^0.40.14"
