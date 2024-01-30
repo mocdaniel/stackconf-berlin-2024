@@ -31,6 +31,25 @@
   -webkit-text-fill-color: transparent;
 }
 
+h1 {
+  background: var(--header-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @apply font-bold max-w-fit;
+}
+
+:not(pre) > code {
+  @apply text-accent bg-code-bg px-1 py-0.5 rounded-md;
+}
+
+strong {
+  @apply text-tertiary font-bold;
+}
+
+li::marker {
+  @apply text-accent;
+}
+
 .slidev-layout.cover,
 .slidev-layout.intro {
   @apply h-full grid;
@@ -43,7 +62,9 @@
     @apply -mt-2 opacity-50 mb-4;
   }
 
-  p + h2, ul + h2, table + h2 {
+  p + h2,
+  ul + h2,
+  table + h2 {
     @apply mt-10;
   }
 }

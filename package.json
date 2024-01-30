@@ -26,6 +26,7 @@
     "colorSchema": "both",
     "highlighter": "shiki",
     "defaults": {
+      "css": "unocss",
       "fonts": {
         "sans": "Nunito Sans",
         "mono": "Fira Code"

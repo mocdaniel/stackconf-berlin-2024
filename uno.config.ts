@@ -7,20 +7,23 @@ import {
   presetUno,
   presetWebFonts,
   transformerDirectives,
-  transformerVariantGroup
-} from 'unocss'
+  transformerVariantGroup,
+} from "unocss";
 
 export default defineConfig({
   shortcuts: {
-    'bg-main': 'bg-white text-[#181818] dark:bg-[#121212] dark:text-[#ddd]',
+    "bg-main": "bg-white text-[#181818] dark:bg-[#121212] dark:text-[#ddd]",
   },
   theme: {
     colors: {
-      'primary': '#002b3f',
-      'secondary': '#1c42da',
-      'accent': '#ff00ff',
-      'less-accent': '#692ae0',
-    }
+      primary: "#002b3f",
+      secondary: "#1c42da",
+      tertiary: "#692ae0",
+      accent: "#ff00ff",
+      code: {
+        bg: "#1a1b26",
+      },
+    },
   },
   presets: [
     presetUno(),
@@ -33,8 +36,5 @@ export default defineConfig({
       },
     }),
   ],
-  transformers: [
-    transformerDirectives(),
-    transformerVariantGroup(),
-  ],
-})
+  transformers: [transformerDirectives(), transformerVariantGroup()],
+});
