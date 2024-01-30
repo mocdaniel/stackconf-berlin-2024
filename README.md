@@ -20,3 +20,7 @@ event: your_event_name
 ```
 
 If you leave out one of the variables, the footer won't render the respective element.
+
+### Favicon and Logo
+
+Copy your favicon and logo into the `public` folder of your slides' repository and name them `favicon.ico` and `logo.svg` respectively.
