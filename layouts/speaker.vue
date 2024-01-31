@@ -12,7 +12,7 @@
       <slot />
     </div>
     <div class="m-auto">
-      <img class="rounded-full w-72 h-72 border-primary border-4" v-if="props.image" :src="props.image" alt="Picture of {{ $slidev.configs.author }}"/>
+      <img class="rounded-full w-72 h-72 border-4 speaker-image" v-if="props.image" :src="props.image" alt="Picture of {{ $slidev.configs.author }}"/>
     </div>
 
   </div>

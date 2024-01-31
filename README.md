@@ -24,3 +24,26 @@ If you leave out one of the variables, the footer won't render the respective el
 ### Favicon and Logo
 
 Copy your favicon and logo into the `public` folder of your slides' repository and name them `favicon.ico` and `logo.svg` respectively.
+
+### Layouts
+
+#### Speaker
+
+The speaker layout can be used to display a picture of you, along with some introductory information or facts.
+
+The speaker layout can be used by adding the following frontmatter to a slide:
+
+```yaml
+layout: speaker
+image: /path/to/image  # optional
+```
+
+#### Section
+
+The section layout shows a single heading (and optionally a subheading) and is intended to be used as a section divider.
+
+The section layout can be used by adding the following frontmatter to a slide:
+
+```yaml
+layout: section
+```
