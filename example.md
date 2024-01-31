@@ -34,6 +34,23 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 ---
+layout: section
+---
+
+# But there's more!
+
+---
+layout: speaker
+image: /dbodky.jpg 
+---
+
+# Speaker Introduction
+
+- Created by: Daniel
+- Platform Advocate at NWS
+- Likes versatile slides
+
+---
 
 # Navigation
 
@@ -49,9 +66,9 @@ Hover on the bottom-left corner to see the navigation's controls panel
 | <kbd>down</kbd>                                      | next slide                  |
 
 ---
-
 layout: image-right
 image: 'https://source.unsplash.com/collection/94734566/1920x1080'
+---
 
 ---
 
@@ -75,9 +92,11 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
-
 layout: center
 class: "text-center"
+---
+
+Hello
 
 ---
 
