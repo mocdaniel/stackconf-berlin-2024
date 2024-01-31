@@ -2,17 +2,13 @@
 theme: ./
 twitter: d_bodky
 event: NWSCon 2024
+date: 1st of January, 1970
+author: Daniel Bodky
 ---
 
-# Slidev Theme Starter
+# Slidev Theme NWS
 
-Presentation slides for developers
-
-<div class="pt-12">
-  <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+NWS-themed slides for Slidev with extra options
 
 ---
 

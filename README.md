@@ -27,6 +27,19 @@ Copy your favicon and logo into the `public` folder of your slides' repository a
 
 ### Layouts
 
+#### Cover
+
+The cover layout will render a cover slide with a title and subtitle.
+
+The cover of your slides can be configured by adding the following frontmatter to a slide:
+
+```yaml
+layout: cover
+```
+
+In addition, it will display the `author` and `date` variables from the frontmatter of your slides' first slide, if existing
+
+
 #### Speaker
 
 The speaker layout can be used to display a picture of you, along with some introductory information or facts.
