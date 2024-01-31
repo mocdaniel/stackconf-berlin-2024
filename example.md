@@ -41,7 +41,7 @@ layout: section
 
 ---
 layout: speaker
-image: /dbodky.jpg 
+image: assets/images/profile.jpg 
 ---
 
 # Speaker Introduction
