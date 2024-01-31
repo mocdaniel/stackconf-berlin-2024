@@ -8,7 +8,7 @@
 
 <style>
   .slidev-layout.section {
-    background-image: url('/section-background.png');
+    background-image: url('assets/images/section-background.png');
     background-size: cover;
   }
   .slidev-layout.section h1 {
