@@ -8,7 +8,7 @@ An NWS theme for [Slidev](https://sli.dev).
 
 At the moment, the theme `tokyo-night` needs to be added to your slides' repository manually. This is because the built-in version of the theme isn't in the dependant upstream release of Shiki yet (see also shikijs/textmate-grammars-themes#16).
 
-To add the theme, run the following command in your slides' repository, [copy it from GitHub](https://github.com/shikijs/textmate-grammars-themes/blob/main/packages/tm-themes/themes/tokyo-night.json) and paste it into the file `styles/tokyo-night.json`.
+To add the theme, [copy it from GitHub](https://github.com/shikijs/textmate-grammars-themes/blob/main/packages/tm-themes/themes/tokyo-night.json) and paste it into the file `styles/tokyo-night.json`.
 
 ### Footer
 
@@ -20,10 +20,6 @@ event: your_event_name
 ```
 
 If you leave out one of the variables, the footer won't render the respective element.
-
-### Favicon and Logo
-
-Copy your favicon and logo into the `public` folder of your slides' repository and name them `favicon.ico` and `logo.svg` respectively.
 
 ### Layouts
 
@@ -37,7 +33,7 @@ The cover of your slides can be configured by adding the following frontmatter t
 layout: cover
 ```
 
-In addition, it will display the `author` and `date` variables from the frontmatter of your slides' first slide, if existing
+In addition, it will display the `author`, `event`, and `date` variables from the frontmatter of your slides' first slide, if present.
 
 
 #### Speaker
