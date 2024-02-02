@@ -28,7 +28,7 @@
     "highlighter": "shiki",
     "defaults": {
       "css": "unocss",
-      "favicon": "/favicon.ico",
+      "favicon": "/assets/images/favicon.ico",
       "fonts": {
         "sans": "Roboto",
         "mono": "Roboto Mono"
