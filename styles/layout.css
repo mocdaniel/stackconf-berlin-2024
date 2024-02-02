@@ -25,59 +25,40 @@
   ); 
 }
 
-html:not(.dark) {
-  li::marker {
-    @apply text-tertiary;
-  }
-
-  strong {
-    @apply text-tertiary;
-  }
-  .speaker-image {
-    @apply border-primary;
-  }
-}
-
-html.dark {
-  li::marker {
-    @apply text-accent;
-  }
-
-  strong {
-    @apply text-accent;
-  }
-
-  #slide-content {
-   /* @apply bg-primary;*/
-    
-    background-image: linear-gradient(
-      45deg,
-      rgba(0, 43, 63, 1) 0%,
-      rgba(0, 43, 65, 1) 42.65%,
-      rgba(2, 44, 72, 1) 58.02%,
-      rgba(4, 46, 83, 1) 68.96%,
-      rgba(7, 49, 100, 1) 77.82%,
-      rgba(11, 52, 122, 1) 85.31%,
-      rgba(14, 55, 141, 1) 90.22%, 
-      rgba(18, 58, 161, 1) 93.2%,
-      rgba(27, 65, 211, 1) 99.24%,
-      rgba(28, 66, 218, 1) 100%);
-  }
-
-
-  .speaker-image {
-    @apply border-accent;
-  }
-}
-
-strong {
-  @apply font-bold;
+#slide-content {
+ /* @apply bg-primary;*/
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 43, 63, 1) 0%,
+    rgba(0, 43, 65, 1) 42.65%,
+    rgba(2, 44, 72, 1) 58.02%,
+    rgba(4, 46, 83, 1) 68.96%,
+    rgba(7, 49, 100, 1) 77.82%,
+    rgba(11, 52, 122, 1) 85.31%,
+    rgba(14, 55, 141, 1) 90.22%, 
+    rgba(18, 58, 161, 1) 93.2%,
+    rgba(27, 65, 211, 1) 99.24%,
+    rgba(28, 66, 218, 1) 100%);
 }
 
 .gradient-text {
   background: var(--header-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.speaker-image {
+  @apply border-accent;
+}
+
+
+li::marker {
+  @apply text-accent;
+}
+
+strong {
+  @apply font-bold;
+  @apply text-accent;
 }
 
 h1 {
@@ -89,9 +70,5 @@ h1 {
 
 :not(pre) > code {
   @apply text-accent bg-code-bg px-1 py-0.5 rounded-md;
-}
-
-li::marker {
-  @apply text-accent;
 }
 

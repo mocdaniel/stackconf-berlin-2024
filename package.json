@@ -24,11 +24,11 @@
   },
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
-    "colorSchema": "both",
+    "colorSchema": "dark",
     "highlighter": "shiki",
     "defaults": {
       "css": "unocss",
-      "favicon": "/assets/images/favicon.ico",
+      "favicon": "./assets/images/favicon.ico",
       "fonts": {
         "sans": "Roboto",
         "mono": "Roboto Mono"
