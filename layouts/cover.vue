@@ -11,17 +11,3 @@
     </div>
   </div>
 </template>
-
-<style>
-  .slidev-layout.cover {
-    @apply h-full grid;
-
-    h1 {
-      @apply text-6xl leading-20;
-    }
-
-    p {
-      @apply opacity-50 -my-0.5;
-    }
-  }
-</style>
