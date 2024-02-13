@@ -53,18 +53,21 @@
 
 
 li::marker {
-  @apply text-accent;
+  @apply text-tertiary;
 }
 
-strong {
+strong, a {
   @apply font-bold;
-  @apply text-accent;
+  background: var(--header-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h1 {
-  background: var(--header-gradient);
+  /*background: var(--header-gradient);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;*/
+  @apply text-white;
   @apply font-bold max-w-fit;
 }
 
@@ -111,15 +114,15 @@ h1 {
   );
 
   h1 {
-    /* unset global faded h1 */
-    -webkit-background-clip: unset;
-    -webkit-text-fill-color: unset;
-    background: unset;
+
 
     @apply text-8xl;
     @apply text-white;
     
     /* text shadow */
-    text-shadow: black 7px 7px;
+    //text-shadow: black 7px 7px;
+    background: var(--header-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
   }
 }

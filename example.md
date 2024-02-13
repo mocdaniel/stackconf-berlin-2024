@@ -88,13 +88,6 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
-layout: center
-class: "text-center"
----
-
-Hello
-
----
 
 # Learn More
 
