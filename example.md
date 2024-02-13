@@ -1,6 +1,8 @@
 ---
 theme: ./
 twitter: d_bodky
+github: mocdaniel
+linkedin: in/daniel-bodky
 event: NWSCon 2024
 date: 1st of January, 1970
 author: Daniel Bodky

@@ -12,14 +12,13 @@ To add the theme, [copy it from GitHub](https://github.com/shikijs/textmate-gram
 
 ### Footer
 
-The footer can be configured by setting the following variables in the frontmatter of your first slide:
+The footer can be configured by setting the following variable in the frontmatter of your first slide:
 
 ```yaml
-twitter: your_twitter_handle
 event: your_event_name
 ```
 
-If you leave out one of the variables, the footer won't render the respective element.
+If you leave out the variable, the footer won't render the respective element.
 
 ### Layouts
 
@@ -45,6 +44,9 @@ The speaker layout can be used by adding the following frontmatter to a slide:
 ```yaml
 layout: speaker
 image: /path/to/image  # optional
+twitter: your_twitter_handle  # optional
+github: your_github_handle  # optional
+linkedin: your_linkedin_handle  # optional
 ```
 
 #### Section
