@@ -137,3 +137,9 @@ h1 {
     -webkit-text-fill-color: transparent
   }
 }
+
+.slidev-layout.speaker {
+  h1 {
+    @apply mb-24;
+  }
+}

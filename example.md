@@ -39,7 +39,6 @@ layout: section
 
 ---
 layout: speaker
-image: assets/images/profile.jpg 
 ---
 
 # Speaker Introduction
