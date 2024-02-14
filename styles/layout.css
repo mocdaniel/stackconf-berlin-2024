@@ -66,6 +66,7 @@ strong, a {
 h1 {
   @apply text-white;
   @apply font-bold max-w-fit;
+  @apply pb-4;
 }
 
 :not(pre) > code {
