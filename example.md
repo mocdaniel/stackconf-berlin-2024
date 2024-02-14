@@ -90,6 +90,14 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
+layout: quote
+---
+
+# Embrace, Extend, Extinguish
+
+Microsoft's strategy to dominate the market by any means necessary
+
+---
 
 # Learn More
 

@@ -64,9 +64,6 @@ strong, a {
 }
 
 h1 {
-  /*background: var(--header-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
   @apply text-white;
   @apply font-bold max-w-fit;
 }
@@ -86,6 +83,20 @@ h1 {
 
   p {
     @apply opacity-50 -my-0.5;
+  }
+}
+
+.slidev-layout.quote {
+  h1 {
+    @apply italic;
+  }
+
+  a {
+    background: unset;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    @apply text-white;
+    @apply opacity-60;
   }
 }
 
