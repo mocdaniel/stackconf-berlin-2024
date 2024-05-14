@@ -3,8 +3,8 @@ theme: ./
 twitter: d_bodky
 github: mocdaniel
 linkedin: in/daniel-bodky
-event: OpenInfra Day Berlin
-date: 15th of May, 2024
+event: stackconf 2024
+date: 18th of June, 2024
 author: Daniel Bodky | Platform Advocate
 ---
 
@@ -26,7 +26,7 @@ transition: slide-left
 
 # 80% of Engineering Organizations
 
-will establish Platform Engineering teams by 2026, according to Gartner <sup>[1](https://www.gartner.com/en/articles/what-is-platform-engineering)</sup>.
+will establish Platform Engineering teams by 2026, according to Gartner<sup>[1](https://www.gartner.com/en/articles/what-is-platform-engineering)</sup>
 
 ---
 layout: speaker
@@ -44,7 +44,7 @@ layout: default
 clicks: 3
 ---
 
-# So What *is* a Platform?
+# So What _is_ a Platform?
 
 <div class="flex flex-row justify-between w-full h-4/5 my-auto items-center">
   <v-switch at="1" tag="h3">
@@ -53,9 +53,9 @@ clicks: 3
     <template #3> This? </template>
   </v-switch>
   <v-switch at="1">
-    <template #1> <img class="h-96" src="idps.png" alt="commercial IDPs" /> </template>
-    <template #2> <img class="h-96 ml-8" src="cncfmeme.png" alt="the CNCF landscape meme" /> </template>
-    <template #3> <img class="h-96" src="links.png" alt="a collection of links" /> </template>
+    <template #1> <img class="h-96" src="/idps.png" alt="commercial IDPs" /> </template>
+    <template #2> <img class="h-96 ml-8" src="/cncfmeme.png" alt="the CNCF landscape meme" /> </template>
+    <template #3> <img class="h-96" src="/links.png" alt="a collection of links" /> </template>
   </v-switch>
 </div>
 
@@ -64,13 +64,13 @@ layout: default
 transition: slide-up
 ---
 
-# So What *is* a Platform?
+# So What _is_ a Platform?
 
 <div class="flex flex-col justify-around w-full h-full items-center">
     <div class="flex flex-row justify-between w-full">
-      <img class="w-64" src="idps.png" alt="commercial IDPs" />
-      <img class="w-64" src="cncfmeme.png" alt="the CNCF landscape meme" />
-      <img class="w-64" src="links.png" alt="a collection of links" />
+      <img class="w-64" src="/idps.png" alt="commercial IDPs" />
+      <img class="w-64" src="/cncfmeme.png" alt="the CNCF landscape meme" />
+      <img class="w-64" src="/links.png" alt="a collection of links" />
     </div>
     <h1>Any of these!</h1>
 </div>
@@ -121,8 +121,8 @@ transition: slide-left
 
 <div class="h-3/4 flex flex-col justify-end items-center">
   <v-switch>
-    <template #1> <img class="mx-auto w-200" alt="Dev/QA/Ops with walls of confusion between them" src="devops.png" /> </template>
-    <template #2> <img class="mx-auto w-200" alt="Dev/QA/Ops with walls torn down" src="devops-new.png" /> </template>
+    <template #1> <img class="mx-auto w-200" alt="Dev/QA/Ops with walls of confusion between them" src="/devops.png" /> </template>
+    <template #2> <img class="mx-auto w-200" alt="Dev/QA/Ops with walls torn down" src="/devops-new.png" /> </template>
   </v-switch>
 </div>
 
@@ -136,8 +136,8 @@ transition: slide-left
 
 <div class="h-full flex flex-col justify-center items-center">
   <v-switch>
-    <template #1> <img class="mx-auto w-200" alt="Multiple teams, each with their own tools" src="platformeng.png" /> </template>
-    <template #2> <img class="mx-auto pb-12 h-110" alt="Multiple teams with shared tooling on a platform" src="platformeng-new.png" /> </template>
+    <template #1> <img class="mx-auto w-200" alt="Multiple teams, each with their own tools" src="/platformeng.png" /> </template>
+    <template #2> <img class="mx-auto pb-12 h-110" alt="Multiple teams with shared tooling on a platform" src="/platformeng-new.png" /> </template>
   </v-switch>
 </div>
 
@@ -172,7 +172,6 @@ transition: slide-up
 image: /landscape.png
 ---
 
-
 ---
 layout: quote
 transition: slide-left
@@ -193,7 +192,8 @@ transition: slide-left
 
   <div>
 
-  ### A framework for bringing together enterprises to...
+### A framework for bringing together enterprises to...
+
   <br />
   
   - ...navigate their operational technology decisions
@@ -201,7 +201,7 @@ transition: slide-left
   - ...coordinate contributions
   - ...offer guidance on available technologies
   </div>
-  <img class="w-100" src="cnoe-logo.png" alt="the CNOE logo"/>
+  <img class="w-100" src="/cnoe-logo.png" alt="the CNOE logo"/>
 </div>
 
 ---
@@ -215,39 +215,45 @@ transition: slide-up
   <v-switch>
   <template #1>
 
-  ## 1 - Open Source First
-  *Open Source technologies are prioritized over proprietary technologies to allow alignment and coordination of contributions from many different participants.*
-  
+## 1 - Open Source First
+
+_Open Source technologies are prioritized over proprietary technologies to allow alignment and coordination of contributions from many different participants._
+
   </template>
   <template #2>
 
-  ## 2 - Community Driven
-  *Decisions on technologies, level of commitment and contributions are driven by the community and its governing body.*
+## 2 - Community Driven
+
+_Decisions on technologies, level of commitment and contributions are driven by the community and its governing body._
 
   </template>
   <template #3>
 
-  ## 3 - Tools and not Practices
-  *The CNOE project offers suggestions on which tooling and configurations to use, not which practices to build.*
+## 3 - Tools and not Practices
+
+_The CNOE project offers suggestions on which tooling and configurations to use, not which practices to build._
 
   </template>
   <template #4>
 
-  ## 4 - Powered by, but not Limited to Kubernetes
-  *CNOE tooling builds on top of Kubernetes and CNCF technologies while providing solutions to target virtually any compute platform.*
-  
+## 4 - Powered by, but not Limited to Kubernetes
+
+_CNOE tooling builds on top of Kubernetes and CNCF technologies while providing solutions to target virtually any compute platform._
+
   </template>
   <template #5>
 
-  ## 5 - Standardized Infrastructure, Customizable by Users
-  *CNOE tries to ensure best possible usability to its stakeholders by allowing customizations and reducing complexity of integrated tooling.*
+## 5 - Standardized Infrastructure, Customizable by Users
+
+_CNOE tries to ensure best possible usability to its stakeholders by allowing customizations and reducing complexity of integrated tooling._
 
   </template>
 
-  <template #6>
+<template #6>
 
-  ## 6 - Built to be Shared
-  *All CNOE development, e.g. its reference architecture and deployable packages, are developed out in the open and made available for anyone to use.*
+## 6 - Built to be Shared
+
+_All CNOE development, e.g. its reference architecture and deployable packages, are developed out in the open and made available for anyone to use._
 
   </template>
   </v-switch>
@@ -268,16 +274,29 @@ layout: section
 transition: slide-left
 ---
 
-# Demo
+# idpbuilder CLI
 
 ---
-layout: default
+layout: image-right
+image: idpbuilder-github.png
 transition: slide-left
 ---
 
-# idpbuilder - Overview
+# idpbuilder CLI
 
-<img class="h-5/6 mx-auto" src="cnoe-ref-figure.png" alt="idpbuilder figure" />
+A command line tool for...
+
+- ...bootstrapping...
+- ...extending...
+- ...developing...
+
+...internal developer portals
+
+<style>
+  h1 {
+    margin-bottom: 3rem;
+  }
+</style>
 
 ---
 layout: default
@@ -293,18 +312,71 @@ transition: slide-up
     <template #3> <h3>Backstage</h3> Service Catalog & IDP Framework </template>
     <template #4> <h3>Crossplane</h3> Cloud-Native Controlplane Framework </template>
     <template #5> <h3>Keycloak</h3> Cloud-Native IAM Platform </template>
+    <template #6> <h3>External Secrets Operator</h3> External Secret Management for Kubernetes </template>
   </v-switch>
   <v-switch at="1">
-    <template #1> <img class="h-96" src="argocd.png" alt="ArgoCD logo" /> </template>
-    <template #2> <img class="h-96 ml-8" src="gitea.svg" alt="Gitea logo" /> </template>
-    <template #3> <img class="h-96" src="backstage.svg" alt="Backstage logo" /> </template>
-    <template #4> <img class="h-96" src="crossplane.png" alt="Crossplane logo" /> </template>
-    <template #5> <img class="h-64" src="keycloak.png" alt="Keycloak logo" /> </template>
+    <template #1> <img class="h-96" src="/argocd.png" alt="ArgoCD logo" /> </template>
+    <template #2> <img class="h-96 ml-8" src="/gitea.svg" alt="Gitea logo" /> </template>
+    <template #3> <img class="h-96" src="/backstage.svg" alt="Backstage logo" /> </template>
+    <template #4> <img class="h-96" src="/crossplane.png" alt="Crossplane logo" /> </template>
+    <template #5> <img class="h-64" src="/keycloak.png" alt="Keycloak logo" /> </template>
+    <template #6> <img class="h-96" src="/eso.svg" alt="ExternalSecretsOperator logo" /> </template>
   </v-switch>
 </div>
 
 ---
 layout: section
+transition: slide-left
 ---
 
 # Demo
+
+---
+layout: section
+transition: slide-left
+---
+
+# Summing It Up...
+
+---
+layout: default
+transition: slide-left
+---
+
+# Summing It Up...
+
+<div class="flex flex-col justify-center h-4/5">
+
+- ...**platforms can enable** standardized, streamlined processes throughout your engineering organization
+- ...**building platforms is about empathy** with your team(s) and strategic decisions regarding integrated technologies
+- ...**the CNOE project defines and promotes** feasible, proven standard tooling for building customizable platforms
+- ...**idpbuilder can help** by bootstrapping portable, demo-able, and customizable platforms
+
+</div>
+
+---
+layout: default
+---
+
+# Thank you
+
+for your time and interest!
+
+<div class="flex flex-row h-4/5 justify-around">
+
+<div>
+
+Learn more here:
+
+- [CNCF Platforms White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/)
+- [CNOE Project](https://cnoe.io)
+- [idpbuilder GitHub repository](https://github.com/cnoe-io/idpbuilder)
+- [idpbuilder Reference Implementation](https://github.com/cnoe-io/idpbuilder/tree/main/examples/ref-implementation)
+</div>
+
+<div class="w-1/2 pt-8 flex flex-col items-center justify-start gap-2">
+<img class="h-48" src="/qrcode.png" alt="QR code to the slides" />
+
+\[slides.dbodky.me/stackconf-berlin-2024\]
+</div>
+</div>
