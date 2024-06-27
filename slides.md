@@ -66,7 +66,7 @@ transition: slide-up
 
 # So What _is_ a Platform?
 
-<div class="flex flex-col justify-around w-full h-full items-center">
+<div class="flex flex-col justify-around w-full h-9/10 items-center">
     <div class="flex flex-row justify-between w-full">
       <img class="w-64" src="/idps.png" alt="commercial IDPs" />
       <img class="w-64" src="/cncfmeme.png" alt="the CNCF landscape meme" />
@@ -134,7 +134,7 @@ transition: slide-left
 
 # Platform Engineering Is Similar!
 
-<div class="h-full flex flex-col justify-center items-center">
+<div class="h-9/10 flex flex-col justify-center items-center">
   <v-switch>
     <template #1> <img class="mx-auto w-200" alt="Multiple teams, each with their own tools" src="/platformeng.png" /> </template>
     <template #2> <img class="mx-auto pb-12 h-110" alt="Multiple teams with shared tooling on a platform" src="/platformeng-new.png" /> </template>
