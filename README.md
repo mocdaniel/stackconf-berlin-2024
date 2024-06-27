@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # slidev-theme-nws
 
 An NWS theme for [Slidev](https://sli.dev).

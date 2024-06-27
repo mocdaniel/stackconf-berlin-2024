@@ -22,23 +22,7 @@
     hsl(297deg 98% 52%) 89%,
     hsl(298deg 99% 51%) 95%,
     hsl(300deg 100% 50%) 100%
-  ); 
-}
-
-#slide-content {
- /* @apply bg-primary;*/
-  background-image: linear-gradient(
-    45deg,
-    rgba(0, 43, 63, 1) 0%,
-    rgba(0, 43, 65, 1) 42.65%,
-    rgba(2, 44, 72, 1) 58.02%,
-    rgba(4, 46, 83, 1) 68.96%,
-    rgba(7, 49, 100, 1) 77.82%,
-    rgba(11, 52, 122, 1) 85.31%,
-    rgba(14, 55, 141, 1) 90.22%, 
-    rgba(18, 58, 161, 1) 93.2%,
-    rgba(27, 65, 211, 1) 99.24%,
-    rgba(28, 66, 218, 1) 100%);
+  );
 }
 
 .gradient-text {
@@ -75,6 +59,21 @@ h1 {
 
 /* Special styles for certain layouts */
 
+.slidev-layout {
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 43, 63, 1) 0%,
+    rgba(0, 43, 65, 1) 42.65%,
+    rgba(2, 44, 72, 1) 58.02%,
+    rgba(4, 46, 83, 1) 68.96%,
+    rgba(7, 49, 100, 1) 77.82%,
+    rgba(11, 52, 122, 1) 85.31%,
+    rgba(14, 55, 141, 1) 90.22%, 
+    rgba(18, 58, 161, 1) 93.2%,
+    rgba(27, 65, 211, 1) 99.24%,
+    rgba(28, 66, 218, 1) 100%);
+}
+
 .slidev-layout.cover {
   @apply h-full grid;
 
@@ -90,14 +89,6 @@ h1 {
 .slidev-layout.quote {
   h1 {
     @apply italic;
-  }
-
-  a {
-    background: unset;
-    -webkit-background-clip: unset;
-    -webkit-text-fill-color: unset;
-    @apply text-white;
-    @apply opacity-60;
   }
 }
 
